@@ -8,15 +8,18 @@ The program counts the number of times a key is pressed in a row and determines 
 
 Finally, the output string is printed.
 
-#Usage 
+# Usage 
 
 The program contains a Main method that can be used to call the OldPhonePad method with a sample string of numbers and asterisks.
 
-public static void Main(string[] args)
+``` Your csharp code goes here
+
+pulic static void Main(string[] args)
 {
     string str = "44883336**6647778777**999#";
     OldPhonePad(str);
 }
 
+```
 
 To use the program with a different input string, simply change the value of the str variable.
